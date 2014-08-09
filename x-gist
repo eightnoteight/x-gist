@@ -1,1 +1,6 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
+
+from gist import x_gist
+
+x_gist.main()
