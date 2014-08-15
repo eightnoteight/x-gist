@@ -7,8 +7,7 @@ import requests
 
 def parse_args():
 	parser = argparse.ArgumentParser()
-	parser.add_argument('-l'
-						'--login',
+	parser.add_argument('--login',
 						dest='login',
 						default=False,
 						action='store_true',
